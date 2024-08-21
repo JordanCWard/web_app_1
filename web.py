@@ -1,10 +1,8 @@
 import streamlit as st
 import functions
 
-"""
-To run a web app, try running it like normal.
-It will give the correct code to put into the terminal to run it.
-"""
+# To run a web app, try running it like normal.
+# It will give the correct code to put into the terminal to run it.
 
 
 # need to put this at the top so that it can be used in the function
@@ -36,8 +34,8 @@ st.text_input(label="Enter a todo: ",
               on_change=add_todo,
               key='new_todo')
 
+
 # used for testing
-"""
-print("Hello")
-st.session_state
-"""
+# print("Hello")
+# st.session_state
+
